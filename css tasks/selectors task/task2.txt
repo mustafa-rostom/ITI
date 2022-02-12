@@ -1,0 +1,31 @@
+1- What is the difference between Em and Rem units?
+*Both of them are relative units,Em is relative to the size of the parent element while Rem is relative to the size main html*
+selectors
+----------
+
+1- select p elements and make them red 
+p{color:red}
+
+2- select p and div elements
+ div,p{}
+
+3- select p with class mainClass direct child for div with id myDiv and make it styled 
+#mydiv>p.mainClass:first-childP{}
+
+4- select all p inside div and style them 
+div>p{}
+
+5- select input with type text element with class myClass
+input.myClass[type="text"]{}
+
+
+6- select span elements after div 
+div~span{}
+
+7- select p with class myClass
+p.myClass{}
+ 
+8- select div with id myDiv 
+#mydiv{}
+=========================================
+

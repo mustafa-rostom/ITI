@@ -1,0 +1,41 @@
+table {
+    border: 4px black solid;
+    width: 80%;
+    border-spacing: 0;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+th {
+    text-align: center;
+    height: 70px;
+    color: white;
+    background-color:#4c7ee1;
+    border-bottom: 4px black solid;
+}
+
+td {
+    border: 1px black solid;
+    height: 70px;
+    text-align: center;
+    background-color: #f1f4f9;
+}
+
+table a{
+    font-style: italic;
+    text-decoration: underline;
+    color: gray;
+}
+td.yes {
+    width: 80px;
+}
+
+
+.blue1 {
+    background-color: #b8c7e0;
+}
+
+.blue2 {
+    background-color: #dce3ef;
+}
