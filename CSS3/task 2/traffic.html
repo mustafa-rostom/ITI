@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 2</title>
+    <style>
+        #root {
+            display: flex;
+        }
+        
+        #start {
+            margin-left: 50px;
+            width: 150px;
+            height: 350px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        #stick {
+            width: 20px;
+            height: 300px;
+            background-color: black;
+            margin-left: 115px;
+        }
+        
+        #red {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: red;
+            transition: width 0.5s, height 0.5s;
+        }
+        
+        #green {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: green;
+            transition: width 0.5s, height 0.5s;
+        }
+        
+        #yellow {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: yellow;
+            transition: width 0.5s, height 0.5s;
+        }
+        
+        #red:hover {
+            width: 100px;
+            height: 100px;
+        }
+        
+        #green:hover {
+            width: 100px;
+            height: 100px;
+        }
+        
+        #yellow:hover {
+            width: 100px;
+            height: 100px;
+        }
+        
+        #run {
+            margin: auto;
+            width: 1200px;
+            height: 700px;
+        }
+        
+        img {
+            display: block;
+            margin-top: 350px;
+            animation-name: move;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        
+        @keyframes move {
+            0% {
+                transform: translate(0px);
+            }
+            25% {
+                transform: translate(250px);
+            }
+            50% {
+                transform: translate(1000px)rotateY(180deg);
+            }
+            100% {
+                transform: translate(5px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<section id="root">
+    <section id="traffic">
+        <div id="start">
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="green"></div>
+        </div>
+        <div id="stick"></div>
+    </section>
+    <div id="run"><img src="1.gif" alt=""></div>
+</section>
+
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>task 1</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        
+        #root {
+            width: 100%;
+            background-color: rgb(243, 240, 240);
+            height: 700px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card {
+            /* background-color: rgb(223, 219, 219); */
+            width: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #parent {
+            margin: auto;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            border: solid 2px #d6d8db;
+            background-color: rgb(248, 248, 248);
+            box-shadow: white 0px 0px 0px 2px, 0 0 0 2px #66CCFF;
+            ;
+            /* border-style: inset; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #text {
+            width: 180px;
+            margin-left: 10px;
+        }
+        
+        i {
+            color: rgb(155, 14, 14);
+        }
+        
+        #parent:hover {
+            background-color: rgb(182, 37, 37);
+            -webkit-transition: background-color 500ms linear;
+            -ms-transition: background-color 500ms linear;
+            transition: background-color 500ms linear;
+        }
+        
+        #h {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="root">
+        <div id="h">
+            <h1 style="color: rgb(77, 74, 74);">Features</h1>
+            <p style="color: gray;">Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+        </div>
+
+        <section class="row">
+            <div class="card">
+                <div id="parent">
+                    <i class="fa fa-bullhorn" style="font-size: 2em;"></i>
+                </div>
+                <div id="text">
+                    <p style="color: rgb(77, 74, 74);	font-weight: bold;
+                ">Fresh and Clean</p>
+                    <p style="color: gray;font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+            </div>
+            <div class="card">
+                <div id="parent">
+                    <i class="fa fa-comments" style="font-size: 2em;"></i>
+                </div>
+                <div id="text">
+                    <p style="color: rgb(77, 74, 74);	font-weight: bold;
+                ">Fresh and Clean</p>
+                    <p style="color: gray;font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+            </div>
+            <div class="card">
+                <div id="parent">
+                    <i class="fa fa-cloud-download" style="font-size: 2em;"></i>
+                </div>
+                <div id="text">
+                    <p style="color: rgb(77, 74, 74);	font-weight: bold;
+                ">Fresh and Clean</p>
+                    <p style="color: gray;font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+            </div>
+        </section>
+        <section class="row">
+            <div class="card">
+                <div id="parent">
+                    <i class="fa fa-leaf" style="font-size: 2em;"></i>
+                </div>
+                <div id="text">
+                    <p style="color: rgb(77, 74, 74);	font-weight: bold;
+                ">Fresh and Clean</p>
+                    <p style="color: gray;font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+            </div>
+            <div class="card">
+                <div id="parent">
+                    <i class="fa fa-cogs" style="font-size: 2em;"></i>
+                </div>
+                <div id="text">
+                    <p style="color: rgb(77, 74, 74);	font-weight: bold;
+                ">Fresh and Clean</p>
+                    <p style="color: gray;font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+            </div>
+            <div class="card">
+                <div id="parent">
+                    <i class="fa fa-heart" style="font-size: 2em;"></i>
+                </div>
+                <div id="text">
+                    <p style="color: rgb(77, 74, 74);	font-weight: bold;
+                ">Fresh and Clean</p>
+                    <p style="color: gray;font-size: 14px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+</body>
+
+</html>
